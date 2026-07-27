@@ -1,21 +1,45 @@
 aid: instacoach
 name: Instacoach
-description: 'Instacoach is a company surfaced as a portfolio company of ggv-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Instacoach is an AI-powered baseball training app that generates personalized, on-demand
+  workout programs for athletes across hitting, pitching, arm care, fielding, catching, lifting, and
+  mental performance. Programs are built by college and pro athletes and adapt to the user''s equipment
+  and goals, with short guided drills, progress tracking, and stat logging. It is delivered as consumer
+  iOS and Android apps plus a web experience, and also offers team training programs for coaches. Sector:
+  consumer sports/fitness technology. Backed by GGV Capital. No public developer API surface was found
+  during enrichment (no api./developer./docs. host, no /.well-known, llms.txt, or OpenAPI).'
 url: https://raw.githubusercontent.com/api-evangelist/instacoach/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://storage.googleapis.com/instacoach-static-public-assets/preview.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - ggv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: 'Consumer AI baseball-training mobile app; no public API/developer platform as of 2026-07-19.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Sports
+- Baseball
+- Training
+- Fitness
+- Artificial Intelligence
+- Mobile App
+- Coaching
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://instacoach.com/
+- type: PrivacyPolicy
+  url: https://instacoach.com/privacy-policy
+- type: TermsOfService
+  url: https://instacoach.com/terms-of-service
+- type: iOSApp
+  url: https://apps.apple.com/us/app/instacoach/id6479509952
+- type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=com.instacoach.clientApp
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
