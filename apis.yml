@@ -8,6 +8,17 @@ description: 'Instacoach is an AI-powered baseball training app that generates p
   consumer sports/fitness technology. Backed by GGV Capital. No public developer API surface was found
   during enrichment (no api./developer./docs. host, no /.well-known, llms.txt, or OpenAPI).'
 url: https://raw.githubusercontent.com/api-evangelist/instacoach/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
